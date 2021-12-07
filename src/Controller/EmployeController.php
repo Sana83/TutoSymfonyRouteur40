@@ -16,6 +16,8 @@ class EmployeController extends AbstractController
      * @Route(
      *      path= "employe/{id}",
      *      name="employe_voir",
+     *      defaults={"id":99},
+     *      requirements = {"id":"\d+"}     *
      *          )       *
      * 
      */
